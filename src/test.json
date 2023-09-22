@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "text": "Detta CV är en samling av Tims historier. Allting började med skolan, Tim har alltid gått skolan med när det kom till högstadiet så var det ett mycket viktigt val man behövde göra som skulle avgöra hela livets gång\nDet viktiga som pratas om är valet av vilket gymnasie och vilken linje han skall gå. Tim har alltid varit mycket intresserad av teknik och kemi som liten och så ett val mellan teknik linjen och naturlinjen en självklarhet.\nVad väljer du att göra?",
+    "options": [
+      {
+        "text": "Börja Teknik på NTI gymnasiet",
+        "setState": { "teknik": true },
+        "nextText": 2
+      },
+      {
+        "text": "Börja Natur på Maja Beskow gymnasiet",
+        "setState": { "natur": true },
+        "nextText": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Tim var en ung student med en passion för teknik som beslutade sig för att gå på tekniklinjen på gymnasiet. Han hade alltid varit nyfiken av sig och älskade att plocka isär gamla elektronikprylar hemma för att se hur de fungerade.\\n Hans föräldrar hade alltid uppmuntrat hans intresse för teknik och hade till och med omvandlat källaren till ett slags teknikverkstad för honom. Men till slut så kom det fruktade andra året med matte 4 och då behövde Tim göra något åt detta. \\n Vad gör Tim?",
+    "options": [
+      {
+        "text": "Fokuserar extra hårt på matten",
+        "setState": { "depression": true, "utbildning_teknik": true },
+        "nextText": 4
+      },
+      {
+        "text": "Lägger ner minimum tid för att klara matten",
+        "setState": { "glad": true },
+        "nextText": 4
+      }
+    ]
+  }
+]
